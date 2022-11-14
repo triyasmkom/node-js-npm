@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "Node Js Npm",
+  "exports": {
+    ".": "./index.js",
+    "./write" : "./write.js"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "echo 'Before App Start'",
+    "start": "node index.js",
+    "poststart": "echo 'after App start'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triyasmkom/nodeJs-npm.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "author": "triyas",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/triyasmkom/nodeJs-npm/issues"
+  },
+  "homepage": "https://github.com/triyasmkom/nodeJs-npm#readme",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
